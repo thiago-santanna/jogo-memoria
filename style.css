@@ -7,13 +7,18 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: white;
+}
+
 .titulo {
     text-align: center;
     padding-bottom: 2rem;
+    color: black;
 }
 
 .container-base {
-    background-color: #8A6290;
+    background-color: #f9f9f9;
     margin: auto;
     max-width: 550px;   
     padding-top: 2rem;
@@ -27,9 +32,21 @@
 }
 
 .itemBox {
-    border: 2px solid white;
+    border: 1px solid black;
     padding: 2rem;
     margin: 0.5rem;
     height: 100px;
     width: 100px;
+    cursor: pointer;
+}
+
+.btn-reiniciar {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
