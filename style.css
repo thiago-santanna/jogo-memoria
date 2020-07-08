@@ -38,6 +38,8 @@ body{
     height: 100px;
     width: 100px;
     cursor: pointer;
+    font-size: larger;
+    font-weight: 700;
 }
 
 .btn-reiniciar {
