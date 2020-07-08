@@ -38,12 +38,14 @@ body{
     height: 100px;
     width: 100px;
     cursor: pointer;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: 700;
+    color: #4CAF50;
+    border-radius: 7px;
 }
 
 .btn-reiniciar {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
